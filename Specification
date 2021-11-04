@@ -1,0 +1,30 @@
+Cappuccino
+    - Sugar: Mandatory
+        - Units: user choice
+        - Assumptions: 
+            - Units will be selectable between 1 and 5
+    - Beans
+        - Units: 5
+    - Milk: Mandatory
+        - Units: 3
+
+Coffee
+    - Sugar: Optional
+        - Units: user choice
+        - Assumptions: 
+            - Units will be selectable between 1 and 5
+    - Beans
+        - Units: 2
+    - Milk: Optional
+        - Units: 1
+
+Latte
+    - Sugar: Optional
+        - Units: user choice
+        - Assumptions: 
+            - Units will be selectable between 1 and 5
+    - Beans
+        - Units: 3
+    - Milk: Mandatory
+        - Units: 2
+

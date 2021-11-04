@@ -1,12 +1,12 @@
-﻿using System;
+﻿using CoffeeMachine.CoffeeMachine;
+using CoffeeMachine.CoffeeMachine.Factory;
 
 namespace CoffeeMachine
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        static void Main(string[] args) => new BeverageMachineFactory()
+            .Create<HotBeverageMachine>()
+            .Run();
     }
 }
