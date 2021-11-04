@@ -6,4 +6,9 @@
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="CoffeeMachine\Beverage\Options" />
+      <Folder Include="CoffeeMachine\Processing" />
+    </ItemGroup>
+
 </Project>
